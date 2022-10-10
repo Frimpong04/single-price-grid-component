@@ -14,8 +14,131 @@ html {
     --body-bg: hsl(218, 22%, 67%);
 }
 
+body {
+    background-color: var(--main-p);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
 ul {
     padding: 0;
     list-style-type: none;
+}
+
+li {
+    font-size: 1.6rem;
+    color: var(--body-bg);
+}
+/* /* CARD STYLES */
+.main-section {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 90rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* MAIN HEADING */
+.main-heading {
+    background-color: white;
+    padding:2rem;
+}
+.main-heading h1 {
+    color: var(--main-heading-color);
+    margin-bottom: 2rem;
+    font-size: 3.6rem;
+}
+
+.main-heading h2 {
+    margin-bottom: 2rem;
+    color: var(--btn-bg-sub);
+    font-size: 2.6rem;
+}
+
+.main-heading p {
+    font-size:1.6rem;
+    margin-bottom: 1rem;
+    color: var(--body-bg);
+}
+
+/* LEFT AND RIGHT CARD STYLES */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 20rem;
+}
+
+.subscription {
+    background-color: var(--main-heading-color);
+    padding: 2rem;
+}
+
+.subscription h3,
+.right-card h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.subscription p {
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+}
+
+.subscription button {
+    border: none;
+    padding:1rem 4rem;
+    border-radius: 1rem;
+    background-color: var(--btn-bg-sub);
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.price .amount {
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
+.price .per-month {
+    font-size: 2rem;
+}
+
+.price p {
+    font-size:1.6rem;
+}
+
+.subscription, 
+.right-card {
+    padding: 2rem;
+}
+
+.right-card {
+    background-color: hsla(179, 62%, 43%, 0.5);
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width:375px) {
+    html {
+        font-size: 50%;
+    }
+
+    .main-section {
+        width: 80%;
+        margin: 2rem 0rem;
+    }
+
+    .subscription button {
+        width: 100%;
+    }
 }
