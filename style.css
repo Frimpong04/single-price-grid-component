@@ -20,6 +20,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Karla', sans-serif;
+}
+
+h3 {
+    color: white;
+    font-weight: 400;
 }
 
 ul {
@@ -29,7 +35,7 @@ ul {
 
 li {
     font-size: 1.6rem;
-    color: var(--body-bg);
+    color: var(--main-p);
 }
 /* /* CARD STYLES */
 .main-section {
@@ -52,12 +58,14 @@ li {
     color: var(--main-heading-color);
     margin-bottom: 2rem;
     font-size: 3.6rem;
+    font-weight: 700;
 }
 
 .main-heading h2 {
     margin-bottom: 2rem;
     color: var(--btn-bg-sub);
-    font-size: 2.6rem;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 .main-heading p {
@@ -84,12 +92,13 @@ li {
 .subscription h3,
 .right-card h3 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .subscription p {
     font-size: 1.6rem;
     margin-bottom: 4rem;
+    color: white;
 }
 
 .subscription button {
@@ -97,6 +106,8 @@ li {
     padding:1rem 4rem;
     border-radius: 1rem;
     background-color: var(--btn-bg-sub);
+    box-shadow: 0px 6px 10px  rgba(0,0,0,0.2);
+    color: white;
 }
 
 .price {
@@ -108,10 +119,12 @@ li {
 .price .amount {
     font-size: 3rem;
     margin-right: 1rem;
+    color: white;
 }
 
 .price .per-month {
     font-size: 2rem;
+    color:var(--main-p);
 }
 
 .price p {
