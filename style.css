@@ -34,14 +34,15 @@ ul {
 }
 
 li {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: var(--main-p);
 }
 /* /* CARD STYLES */
 .main-section {
     border-radius: 0.5rem;
     overflow: hidden;
-    width: 90rem;
+    /* width: 90rem; */
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.1);
 }
 
 .card-container {
@@ -52,12 +53,12 @@ li {
 /* MAIN HEADING */
 .main-heading {
     background-color: white;
-    padding:2rem;
+    padding:4rem;
 }
 .main-heading h1 {
     color: var(--main-heading-color);
-    margin-bottom: 2rem;
-    font-size: 3.6rem;
+    margin-bottom: 1.8rem;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 
@@ -69,7 +70,7 @@ li {
 }
 
 .main-heading p {
-    font-size:1.6rem;
+    font-size:1.5rem;
     margin-bottom: 1rem;
     color: var(--body-bg);
 }
@@ -86,34 +87,34 @@ li {
 
 .subscription {
     background-color: var(--main-heading-color);
-    padding: 2rem;
 }
 
 .subscription h3,
 .right-card h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 2rem;
 }
 
 .subscription p {
-    font-size: 1.6rem;
-    margin-bottom: 4rem;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
     color: white;
 }
 
 .subscription button {
     border: none;
-    padding:1rem 4rem;
+    padding:1.5rem 4rem;
     border-radius: 1rem;
     background-color: var(--btn-bg-sub);
     box-shadow: 0px 6px 10px  rgba(0,0,0,0.2);
     color: white;
+    width: 100%;
 }
 
 .price {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .price .amount {
@@ -127,13 +128,10 @@ li {
     color:var(--main-p);
 }
 
-.price p {
-    font-size:1.6rem;
-}
 
 .subscription, 
 .right-card {
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .right-card {
