@@ -8,4 +8,14 @@
 
 html {
     font-size: 62.5%;
+    --main-heading-color: hsl(179, 62%, 43%);
+    --btn-bg-sub:  hsl(71, 73%, 54%);
+    --main-p:  hsl(204, 43%, 93%);
+    --body-bg: hsl(218, 22%, 67%);
+}
+
+
+ul {
+    padding: 0;
+    list-style-type: none;
 }
